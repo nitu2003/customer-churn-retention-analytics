@@ -164,7 +164,7 @@ Customer-Churn-Retention-Analytics/
 ## Clone repository
 
 ```bash
-git clone <your-repo-url>
+
 cd customer-churn-retention-analytics
 ```
 
