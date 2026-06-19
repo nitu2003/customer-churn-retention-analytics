@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets & local config
+.env
+.env.*
+.env.example
+secrets/
+*.pem
+credentials.json
+
+# Data (keep structure; ignore large/sensitive files)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+data/cleaned/*
+!data/cleaned/.gitkeep
+!data/cleaned/README.md
+
+# Generated outputs (regenerable)
+outputs/excel/*
+!outputs/excel/.gitkeep
+!outputs/excel/README.md
+outputs/charts/*
+!outputs/charts/.gitkeep
+!outputs/charts/README.md
+powerbi/exports/*
+!powerbi/exports/.gitkeep
+!powerbi/exports/README.md
+
+# Logs & temp
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Power BI (local desktop files; export CSV/Parquet instead)
+*.pbix
+*.pbit
+
+# Excel lock files
+~$*.xlsx
+~$*.xls
+
+PROJECT_PLAN.md
+docs/
+data/raw/README.md
+outputs/charts/README.md
+outputs/excel/README.md
+powerbi/exports/README.md
+sql/README.md
+data/cleaned/README.md
+powerbi/DATA_MODEL.md
+sql/README.md
